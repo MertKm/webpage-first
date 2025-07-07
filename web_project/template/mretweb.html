@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deneme</title>
+</head>
+<body>
+
+    <img src="https://i.ibb.co/BV0FM6Bp/MNNJMP-image.jpg" width="30">
+    <h1>mertkm web</h1>
+
+    <form action="/greet" method="post">
+        <label for="name">yo got a name?:</label>
+        <input type="text" id="name" name="username">
+        <input type="submit" value="Greet Me">
+    </form>
+
+    {% if greeting %}
+        <h2>{{ greeting }}</h2>
+    {% endif %}
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+CREATE TABLE dummy (
+  id INTEGER,
+  email TEXT NOT NULL,
+  txt TEXT NOT NULL,
+  PRIMARY KEY("id" AUTOINCREMENT)
+);
